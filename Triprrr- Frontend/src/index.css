@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-Poppins: "Poppins", sans-serif;
+  --font-Lora: "Lora", serif;
+}
+
+.testimonials-slider .swiper-button-next::after,
+.testimonials-slider .swiper-button-prev::after {
+  display: none;
+}
+
+.testimonials-slider .swiper-slide {
+  height: auto;
+  padding-bottom: 2rem;
+}
