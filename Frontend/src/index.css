@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-Poppins: "Poppins", sans-serif;
+  --font-Lora: "Lora", serif;
+}
+
+.testimonials-slider .swiper-button-next::after,
+.testimonials-slider .swiper-button-prev::after {
+  display: none;
+}
+
+.testimonials-slider .swiper-slide {
+  height: auto;
+  padding-bottom: 2rem;
+}
+
+.swiper-slide {
+  height: auto;
+}
+
+.room-type-swiper {
+  padding: 1rem;
+  margin: -1rem;
+}
+
+.room-type-swiper .swiper-button-next,
+.room-type-swiper .swiper-button-prev {
+  color: #4b5563;
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.room-type-swiper .swiper-button-next:after,
+.room-type-swiper .swiper-button-prev:after {
+  font-size: 1.2rem;
+}
+
+@layer base {
+  .prose p {
+    @apply text-gray-600 leading-relaxed;
+  }
+}
